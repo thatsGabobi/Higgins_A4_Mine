@@ -85,7 +85,7 @@ namespace Lab5
 
         }
         /* function to reset grpstats */
-        private void ResetStatsGrp
+        private void ResetStatsGrp()
         {
             lblSum.Text = "";
             lblMean.Text = "";
