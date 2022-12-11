@@ -85,7 +85,7 @@ namespace Lab5
 
         }
         /* function to reset grpstats */
-        private void ResetStatsGrp
+        private void ResetStatsGrp()
         {
             lblSum.Text = "";
             lblMean.Text = "";
@@ -133,14 +133,14 @@ namespace Lab5
             string placeHolder = word1;
             word1 = word2;
             word2 = placeHolder;
-            txtString1.Text = word1
+        txtString1.Text = word1;
             txtString2.Text = word2;
         }
         private bool CheckInput()
         {
             if (txtString1 != null && txtString2 != null)
             {
-                return true
+            return true;
             }
             else { return false; }
         }
@@ -152,7 +152,7 @@ namespace Lab5
                 string word2 = txtString2.Text;
                 Swap(ref word1, ref word2);
                 CheckInput();
-                lblResults.Text = "Fisrt string = " + word1 + "\n" + "Second string = " + word2 + "\n" + "Joined = " + word1 + word2;
+                lblResults.Text = "First string = " + word1 + "\n" + "Second string = " + word2 + "\n" + "Joined = " + word1 + word2;
 
             }
         }
