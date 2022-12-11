@@ -140,7 +140,7 @@ namespace Lab5
         {
             if (txtString1 != null && txtString2 != null)
             {
-                return true
+            return true;
             }
             else { return false; }
         }
